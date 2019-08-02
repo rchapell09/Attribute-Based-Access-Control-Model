@@ -1,0 +1,35 @@
+Hello this file is just to clarify information about the project.
+
+name: Robert Chapell
+ID: 1210539574
+Language chosen :	Python3
+
+**********************INPUT FILE/LOADFILE********************
+
+the expected INPUT FILE has the syntax as follows (this sample text will load properly as an example)
+
+ATTRS = <Role, role>; <String, fileName>; <String, fileOwnerName>;<AbstractTime, currentTime>
+PERMS = <PW>; <PR>
+PA = <fileName, grades.txt>; <role, Student>; <currentTime,WithinOH> : PR - <fileName, grades.txt>;<role, Professor>; <currentTime, WithinOH> : PR 
+ENTITIES = <Josie>;<Carlos>;<Kyle>;<ENV>;<GradesFile>
+AA = <Josie> : <role, Student>; <Carlos> : <role, Professor>
+
+
+its very IMPORTANT that:
+ there are no extra spaces at the end of the line,
+ there are no extra spaces between names and commas, but there MUST be ONE space between items and commas
+ There must be a space between Colon and Dash(-) items
+	it does not matter if there is a ; at the end of the line or not
+
+
+if the format/ syntax of the loaded file meets the format of the  sample text, then the code should execute just as expected.
+
+I have provided the 3 input files that will work as expected with my program without any errors. These files are provided to give ease of grading, and/or give a template for whats expected as input.
+
+****************COMMAND LINE****************************
+when running the file in the terminal it will accept
+
+./abacmonitor "with expected commands; in these quotations,"
+
+the quotations are neccesary to run the program
+
